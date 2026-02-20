@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 77px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgb(18, 18, 95);
+}
+
+#title {
+    display: inline;
+    color: white;
+}
+
+#search-input {
+    float: right;
+    padding: 7px;
+}
+
+section {
+    padding: 20px;
+}
+
+.movie {
+    width: 300px;
+    display: inline-block;
+    overflow: auto;
+    margin-right: 15px;
+}
+
+.movie-img {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+}
+
+aside {
+    background: rgb(35, 35, 156);
+    position: fixed;
+    right: 0;
+    top: 77px;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    height: 100%;
+}
+
+#aside-title {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 10px;
+}
