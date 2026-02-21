@@ -6,7 +6,7 @@
 
 body {
     padding-top: 77px;
-    padding-right: 50px;
+    padding-right: 200px;
 }
 
 header {
@@ -29,6 +29,16 @@ header {
 
 section {
     padding: 20px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.section-title::first-letter {
+    color: rgb(18, 18, 95);
 }
 
 .movie {
