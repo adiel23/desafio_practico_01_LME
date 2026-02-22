@@ -55,7 +55,7 @@ section {
 .movie-img {
     float: left;
     height: 100%;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .movie-info {
@@ -104,4 +104,7 @@ aside {
 
 ul {
     padding-left: 10px;
+}
+p{
+    text-align: justify;
 }
